@@ -33,7 +33,7 @@ git push -u origin main || Envia os arquivos no repositório git para o github
 ## Configuração SSH:
 
 ssh-keygen -t ed25519 -C "e-mail" || Gera uma chave SSH  
-(Copiar a chave id.pub e colar no GitHub)
+(Copiar a chave id.pub e colar no GitHub)  
 
 
 ## Projetos Compartilhados:
