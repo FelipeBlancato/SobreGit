@@ -1,15 +1,25 @@
 # Instruções sobre Git e Versionamento
-
-
 ### Download do Git no Site Oficial
+
 ## Comandos Básicos:
 
 git --version (-v) || Verificar versão do software  
-git init || Cria um repositório vazio no diretório atual  
-git branch -M "" || renomeia a branch  
-(-M equivale ao --move + --force)  
+git init || Cria um repositório vazio no diretório atual   
 git add || Adiciona arquivos do diretório ao Staging  
 (add . para todos os arquivos)  
+
+## Comandos Commit:
+
+git status || Ver status do processo  
+git commit || Fazer um commit do Staging ( -m ou --message para adicionar nota)  
+
+## Comandos Branch:
+
+git branch "nome" || Cria uma nova branch  
+git checkout || Muda de branch  
+git checkout -b || cria e muda  
+git branch -M "" || renomeia a branch  
+(-M equivale ao --move + --force) 
 
 ## Configuração GitHub:
 
@@ -19,7 +29,4 @@ git remote add origin *link do rep* || Linka os dois repositórios !origin é o 
 git push -u origin main || Envia os arquivos no repositório git para o github  
 (-u é abreviação de --set-upstream, as próximas linhas podem usar apenas "push")  
 
-## Comandos Commit:
-
-git status || Ver status do processo  
-git commit || Fazer um commit do Staging ( -m ou --message para adicionar nota)  
+## Configuração SSH:
