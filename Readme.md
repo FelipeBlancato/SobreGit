@@ -12,6 +12,7 @@ git add || Adiciona arquivos do diretório ao Staging
 
 git status || Ver status do processo  
 git commit || Fazer um commit do Staging ( -m ou --message para adicionar nota)  
+git log || Lista os commits (aperte Q para sair)  
 
 ## Comandos Branch:
 
@@ -30,3 +31,7 @@ git push -u origin main || Envia os arquivos no repositório git para o github
 (-u é abreviação de --set-upstream, as próximas linhas podem usar apenas "push")  
 
 ## Configuração SSH:
+
+## Para projetos Compartilhados:
+
+git clone || Cria um repositório local de um projeto no GitHub  
