@@ -43,25 +43,25 @@ git pull || Atualiza o diretório local com os commits do GitHub
 
 # Instruções para Linux
 
-sudo apt update || Atualiza a lista de pacotes
-sudo apt upgrade || Atualiza pacotes já existentes
+sudo apt update || Atualiza a lista de pacotes  
+sudo apt upgrade || Atualiza pacotes já existentes  
 
-sudo add-apt-repository ppa:git-core/ppa || Adiciona o repositório do Git à lista
-sudo apt update
-sudo apt install git
+sudo add-apt-repository ppa:git-core/ppa || Adiciona o repositório do Git à lista  
+sudo apt update  
+sudo apt install git  
 
-git --version
+git --version  
 
-git config --global user.name "Your Name"
-git config --global user.email yourname@example.com
+git config --global user.name "Your Name"  
+git config --global user.email yourname@example.com  
 
-git config --global init.defaultBranch main || Troca o nome da branch
+git config --global init.defaultBranch main || Troca o nome da branch  
 
-git config --global pull.rebase false || Mantém merge ao invés de rebase
+git config --global pull.rebase false || Mantém merge ao invés de rebase  
 
-git config --get user.name
-git config --get user.email
+git config --get user.name  
+git config --get user.email  
 
-ls ~/.ssh/id_ed25519.pub
-ssh-keygen -t ed25519
-cat ~/.ssh/id_ed25519.pub
+ls ~/.ssh/id_ed25519.pub  
+ssh-keygen -t ed25519  
+cat ~/.ssh/id_ed25519.pub  
